@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Array</title>
+    <style></style>
+</head>
+<body>
+    
+
+    <script>
+        var students = ['Rahul','Sunil','Anil','Amar','Sultan'];
+        alert("hello "+students[2]+" How are you?");
+        function greet(m){
+            console.log("Hello "+m+" How are you?");
+        }
+
+        let z = greet(students[4]);
+
+        function greet2(s){
+                for(var i=0; i<=4;i++){
+                    console.log("My Name is "+s[i]);
+                }
+        }
+
+        greet2(students);
+
+    </script>
+
+</body>
+</html>
